@@ -14,7 +14,6 @@ sleep(5)
 
 for linha in sheet_produtos.iter_rows(min_row=2):
     
-    
     nome_produto = linha[0].value
     pyperclip.copy(nome_produto)
     pyautogui.hotkey('tab')
@@ -115,3 +114,8 @@ for linha in sheet_produtos.iter_rows(min_row=2):
 
     #PRESSIONAR BOTÃO PARA CONCLUIR
     pyautogui.hotkey('tab','Enter')
+    sleep(1)
+    pyautogui.hotkey('Enter')
+    sleep(2)
+    pyautogui.hotkey('tab','Enter')
+    sleep(2)
