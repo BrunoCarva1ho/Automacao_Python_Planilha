@@ -5,4 +5,4 @@ Passando atributos de uma planilha para um sistema de cadastro, de forma automá
 Manipulando teclado e mouse com a biblioteca "pyautogui", e copiando atributos da planilha para a área de transferência do computador com "pyperclip":
 
 <p></p>
-<img src="print-automacao-python.jpeg">
+<img src="print-automacao-py.jpeg">
